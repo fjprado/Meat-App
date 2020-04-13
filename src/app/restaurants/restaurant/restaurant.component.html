@@ -1,4 +1,5 @@
 <a [routerLink]="['/restaurants', restaurant.id]">
+  <!-- Quando o resultado do template pode ser diferente denpendendo do item -->
   <div class="place-info-box" [@restaurantAppeared]="restaurantState">
     <span class="place-info-box-icon"><img [src]="restaurant.imagePath" /></span>
 

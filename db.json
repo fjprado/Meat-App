@@ -3,7 +3,7 @@
     {
       "id": "bread-bakery",
       "name": "Bread & Bakery",
-      "category": "Padaria",
+      "category": "Bakery",
       "deliveryEstimate": "25m",
       "rating": 4.9,
       "imagePath": "assets/img/restaurants/breadbakery.png",
@@ -23,7 +23,7 @@
     {
       "id": "coffee-corner",
       "name": "Coffee Corner",
-      "category": "Cafeteria",
+      "category": "Coffee Shop",
       "deliveryEstimate": "30-40m",
       "rating": 4.8,
       "imagePath": "assets/img/restaurants/coffeecorner.png",
@@ -43,7 +43,7 @@
     {
       "id": "ice-cream",
       "name": "Ice Cream",
-      "category": "Sorvetes",
+      "category": "Ice Creams",
       "deliveryEstimate": "40-65m",
       "rating": 4.5,
       "imagePath": "assets/img/restaurants/icy.png",
@@ -370,5 +370,361 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "5151",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bread"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "343",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 17
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "343",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 18
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "23232",
+      "optional": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 19
+    },
+    {
+      "address": "Rua Taubaté",
+      "number": "23232",
+      "optional": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 20
+    },
+    {
+      "address": "Rua Taubaté",
+      "number": "23232",
+      "optional": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 21
+    },
+    {
+      "address": "Rua Taubaté",
+      "number": "23232",
+      "optional": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 22
+    },
+    {
+      "address": "hweuhej'",
+      "number": "454",
+      "optional": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 23
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "5454",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "capp"
+        },
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 24
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "151",
+      "optional": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 25
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "515",
+      "optional": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 26
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "515818",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bread"
+        }
+      ],
+      "id": 27
+    },
+    {
+      "address": "owjiojeij",
+      "number": "5151",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        },
+        {
+          "quantity": 3,
+          "menuId": "bread"
+        }
+      ],
+      "id": 28
+    },
+    {
+      "id": 29
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "45154",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 30
+    },
+    {
+      "address": "Rua Taubaté, 496",
+      "number": "2323",
+      "optional": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 31
+    },
+    {
+      "name": "fernando Prado",
+      "email": "a@123.com",
+      "emailConfirmation": "a@123.com",
+      "address": "teste",
+      "number": "11",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 32
+    },
+    {
+      "name": "FERNANDO PRADO",
+      "email": "NANDINHO_SBO@HOTMAIL.COM",
+      "emailConfirmation": "NANDINHO_SBO@HOTMAIL.COM",
+      "address": "Rua Taubaté, 496",
+      "number": "9494",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 33
+    },
+    {
+      "name": "FERNANDO PRADO",
+      "email": "NANDINHO_SBO@HOTMAIL.COM",
+      "emailConfirmation": "NANDINHO_SBO@HOTMAIL.COM",
+      "address": "Rua Taubaté, 496",
+      "number": "52121",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 34
+    }
+  ]
 }

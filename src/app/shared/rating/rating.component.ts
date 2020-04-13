@@ -26,16 +26,16 @@ export class RatingComponent implements OnInit {
   }
 
   setTemporaryRate(r: number){
-    if (this.previousRate === undefined){
+    if(this.previousRate === undefined){
       this.previousRate = this.rate
     }
     this.rate = r
   }
 
   clearTemporaryRate(){
-    if (this.previousRate !== undefined){
-      this.rate = this.previousRate
-      this.previousRate = undefined
+    if(this.previousRate != undefined){
+        this.rate = this.previousRate
+        this.previousRate = undefined
     }
   }
 

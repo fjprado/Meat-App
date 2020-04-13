@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ThrowStmt } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'mt-delivery-costs',
@@ -7,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class DeliveryCostsComponent implements OnInit {
 
   @Input() delivery: number
-  @Input() itemsValue: number
+  @Input() itemsValue : number
 
   constructor() { }
 
